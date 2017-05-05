@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetOwnerGender", "PetOwnerGender\PetOwnerGender.csproj", "{6E5E139A-ABAC-48E2-B176-09AADC26A318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetOwnerGender.Tests", "PetOwnerGender.Tests\PetOwnerGender.Tests.csproj", "{4911A00C-84F9-441F-BF05-7BE84429D254}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E5E139A-ABAC-48E2-B176-09AADC26A318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5E139A-ABAC-48E2-B176-09AADC26A318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5E139A-ABAC-48E2-B176-09AADC26A318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5E139A-ABAC-48E2-B176-09AADC26A318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4911A00C-84F9-441F-BF05-7BE84429D254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4911A00C-84F9-441F-BF05-7BE84429D254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4911A00C-84F9-441F-BF05-7BE84429D254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4911A00C-84F9-441F-BF05-7BE84429D254}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
