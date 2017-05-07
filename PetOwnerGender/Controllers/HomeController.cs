@@ -1,30 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using PetOwnerGender.Models;
+using PetOwnerGender.Repository;
 
 namespace PetOwnerGender.Controllers
 {
     public class HomeController : Controller
     {
+        PetOwnerRepository petOwnerRepository = new PetOwnerRepository();
+
         public ActionResult Index()
         {
-            return View();
-        }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
+            List<ResponseContent> contentsFromWeb = petOwnerRepository.GetJsonData();
 
-            return View();
-        }
+            List<PetOwnerVM> allCats = petOwnerRepository.GetPetOwnerByGender(contentsFromWeb);
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View(allCats);
         }
     }
 }
